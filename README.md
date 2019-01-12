@@ -1,0 +1,2 @@
+# ScoreEngine
+ScoreEngine for coinTrust
