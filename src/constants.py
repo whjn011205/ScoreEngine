@@ -14,3 +14,5 @@ DB_DESCRIPTION = 'description'
 DB_LINK = 'link'
 DB_TWITTER = 'twitter'
 DB_SUBMITTED_AT = 'submittedAt'
+
+SCORE_ENGINE_HTTP_SERVER_PORT = 3001
