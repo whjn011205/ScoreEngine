@@ -59,6 +59,11 @@ class DynamoUtil:
         table = self.dynamodb.Table(paras['Table'])
         table.delete_item(Key=Key)
 
+    def scan(self, paras):
+        table = self.dynamodb.Table(paras['Table'])
+        response = table.scan()
+        return response['Items']
+
     def addUser(self, userId, ethAddress):
         paras = {
             'Table': CST.DB_TABLE_USER,
@@ -99,6 +104,12 @@ class DynamoUtil:
             'sortKey':(CST.DB_ADDRESS, [address])
         }
         return self.queryItem(paras)
+
+    def scanIdentifiedAddress(self):
+        paras = {
+            'Table': CST.DB_TABLE_IDENTIFIED_ADDRESS,
+        }
+        return self.scan(paras)
 
 
     def addPendingAddress(self, pendingAddress):

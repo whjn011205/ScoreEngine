@@ -16,3 +16,5 @@ DB_TWITTER = 'twitter'
 DB_SUBMITTED_AT = 'submittedAt'
 
 SCORE_ENGINE_HTTP_SERVER_PORT = 3001
+
+ETHERSCAN_KOVAN_BASEPOINT = 'https://api-kovan.etherscan.io/'

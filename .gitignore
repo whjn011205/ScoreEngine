@@ -1,3 +1,5 @@
 keys
 keys.py
 *keys*
+*.txt
+*.pyc

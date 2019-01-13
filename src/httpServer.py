@@ -3,26 +3,30 @@ import constants as CST
 import pandas as pd
 from keys import aws_keys
 from dynamoUtil import DynamoUtil 
+import etherscan
 
 app = Flask(__name__)
 
 db = DynamoUtil(aws_keys['credentials']['accessKeyId'], aws_keys['credentials']['secretAccessKey'], aws_keys['region'])
 
 
-def evaluate(addr = ''):
-    if addr is None:
-        addr = ''
-    print(addr)
-    print(db.getIdentifiedAddress('ETH',addr))
-    return 0
+def evaluate(addr):
+    relatedAddrs = etherscan.getRelatedAddresses(addr)
+    dbAddrs = [addr['address'] for addr in db.scanIdentifiedAddress()]
+    
+    print(relatedAddrs, dbAddrs)
+    return len(relatedAddrs)
+
+
  
 @app.route("/")
 def query():
     score = None
-    addr = request.args.get('address')
+    addr = request.args.get('address').lower()
     if addr is None: 
-        addr = '123'
-    score = evaluate(addr)
+        score =  None
+    else:
+        score =  evaluate(addr)
 
     return str(score)
 
