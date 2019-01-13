@@ -13,9 +13,11 @@ db = DynamoUtil(aws_keys['credentials']['accessKeyId'], aws_keys['credentials'][
 def evaluate(addr):
     relatedAddrs = etherscan.getRelatedAddresses(addr)
     dbAddrs = [addr['address'] for addr in db.scanIdentifiedAddress()]
-    
-    print(relatedAddrs, dbAddrs)
-    return len(relatedAddrs)
+
+    print('ehterscan related addresses: ',relatedAddrs)
+    print('identified scam address in DB: ', dbAddrs)
+    dummyScore = 0
+    return dummyScore
 
 
  
