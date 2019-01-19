@@ -62,9 +62,8 @@ def evaluate(addr):
         'commentsCount':comments['commentsCount'],
     }
     return json.dumps(response, indent=4)
+    # return score
 
-
- 
 @app.route("/")
 def query():
     score = None
@@ -81,12 +80,3 @@ def query():
 app.run(port=CST.SCORE_ENGINE_HTTP_SERVER_PORT) 
 # app.run(host='0.0.0.0',port=CST.SCORE_ENGINE_HTTP_SERVER_PORT)
 
-
-# from flask import Flask
-# app = Flask(__name__)
-
-# @app.route("/")
-# def hello():
-#     return "Hello World!"
-
-# app.run(port=3001)
