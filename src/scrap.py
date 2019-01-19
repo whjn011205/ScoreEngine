@@ -139,8 +139,41 @@ def getGoodComments():
         del item['exchange']
         good_list_with_comments.append(item)
     # json.dump(good_list_with_comments,open('data/good_list_withcomments.json','w'), indent=4)
+
+
+def getComments(addrs = []):
+    res = []
+    for addr in addrs:
+        item = {}
+        # i+=1
+        # print(i)
+        # addr = item['exchange']
+        comments = getAddressComments(addr, 'goodComments/')
+        item['commentsLink'] = comments['commentsLink']
+        item['comments'] = comments['comments']
+        item['commentsCount'] = comments['commentsCount']
+        item['address'] = addr
+        # del item['exchange']
+        res.append(item)
+    json.dump(res, open('data/cached_comments.json','w'), indent=4)
+    # json.dump(good_list_with_comments,open('data/good_list_withcomments.json','w'), indent=4)
+
 if __name__ == '__main__':
-    # getGoodComments()
+    good = [
+        '0x0681d8db095565fe8a346fa0277bffde9c0edbbf',
+        '0x0861fca546225fbf8806986d211c8398f7457734',
+        '0x0a869d79a7052c7f1b55a8ebabbea3420f0d1e13',
+        '0x039b5649a59967e3e936d7471f9c3700100ee1ab',
+        '0x0536806df512d6cdde913cf95c9886f65b1d3462'
+    ]
+    bad = [
+        '0x4cae21759c78650cee753ba4616c66b33178f09c',
+        '0x6b92ab6d455d06b022bf5003922cdd8b07172586',
+        '0xa22229d569884f928b88087600c60d33a9c5a746',
+        '0x00e01a648ff41346cdeb873182383333d2184dd1',
+        '0x1d60606d8a09b5015d773a80b0c660bb8d91809c'
+    ]
+    getComments(good+bad)
     pass
 # getComments()
 

@@ -21,6 +21,10 @@ with open('model/bow_transformer.pickle', 'rb') as f:
 with open('model/tfidf_transformer.pickle', 'rb') as f:
     tfidf_transformer = pickle.load(f)
 
+cached_comments={}
+with open('data/cached_comments.json','r') as f:
+    cached_comments = json.load(f)
+cached_addrs = [item['address'] for item in cached_comments]
 # db = DynamoUtil(aws_keys['credentials']['accessKeyId'], aws_keys['credentials']['secretAccessKey'], aws_keys['region'])
 
 # def text_process(comments):
@@ -38,7 +42,11 @@ def evaluate(addr):
     # print('ehterscan related addresses: ',relatedAddrs)
     # print('identified scam address in DB: ', dbAddrs)
     # dummyScore = 0
-    comments = getAddressComments(addr)
+    comments = {}
+    if addr in cached_addrs:
+        comments = ([item for item in cached_comments if item['address']==addr])[0]
+    else:
+        comments = getAddressComments(addr)
     X_test =pd.DataFrame([comments])
     test_bow = bow_transformer.transform(X_test['comments'])
     test_tfidf = tfidf_transformer.transform(test_bow)
@@ -49,7 +57,9 @@ def evaluate(addr):
     response = {
         'address':addr,
         'score':score,
-        'comments':comments
+        'comments':comments['comments'],
+        'commentsLink':comments['commentsLink'],
+        'commentsCount':comments['commentsCount'],
     }
     return json.dumps(response, indent=4)
 
@@ -68,8 +78,8 @@ def query():
 
 
 
- 
-app.run(port=CST.SCORE_ENGINE_HTTP_SERVER_PORT)
+app.run(port=CST.SCORE_ENGINE_HTTP_SERVER_PORT) 
+# app.run(host='0.0.0.0',port=CST.SCORE_ENGINE_HTTP_SERVER_PORT)
 
 
 # from flask import Flask
