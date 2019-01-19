@@ -18,7 +18,9 @@ def evaluate(addr):
     # print('ehterscan related addresses: ',relatedAddrs)
     # print('identified scam address in DB: ', dbAddrs)
     # dummyScore = 0
-    return random.randint(1,100)
+    score = random.randint(1,100)
+    print('##### score is ' + str(score))
+    return score
 
 
  
