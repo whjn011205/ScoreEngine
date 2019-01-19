@@ -1,0 +1,710 @@
+[
+  {
+    "address": "0xf6884686a999f5ae6c1af03db92bab9c6d7dc8de",
+    "label": "Coinrail_Hack",
+    "balance": 7446.13401077,
+    "transactions": 22
+  },
+  {
+    "address": "0x944a3f5641d6faf7a6abde4ec31e40d0929955ed",
+    "label": "FAKE_DaoCasino",
+    "balance": 0.00026476,
+    "transactions": 19
+  },
+  {
+    "address": "0x905475cbca398e8fee6e35bcb2f530a3474b78ce",
+    "label": "FAKE_OmiseGo",
+    "balance": 0.0,
+    "transactions": 31
+  },
+  {
+    "address": "0xa6E71Bdc40952eb1C083E5Ae4940d70886296724",
+    "label": "Fake_Phishing100",
+    "balance": 0.14992436,
+    "transactions": 78
+  },
+  {
+    "address": "0x3a878eddb991ebcbc7c8052055b2e5ed5d0d1ba4",
+    "label": "Fake_Phishing1000",
+    "balance": 0.0,
+    "transactions": 87
+  },
+  {
+    "address": "0x9eea7fda3c78cd8c096ae229de8217a94cd1bcfe",
+    "label": "Fake_Phishing1001",
+    "balance": 0.34595764,
+    "transactions": 113
+  },
+  {
+    "address": "0x8d4426f94e42f721c7116e81d6688cd935cb3b4f",
+    "label": "Fake_Phishing1003",
+    "balance": 45.94865,
+    "transactions": 14
+  },
+  {
+    "address": "0x0f4cf489c65f5001843c525e1f374768dcad9b99",
+    "label": "Fake_Phishing1005",
+    "balance": 0.0,
+    "transactions": 40
+  },
+  {
+    "address": "0xb48c99C37b7cf4AC0A1c2dcA518782C1FEB4f066",
+    "label": "Fake_Phishing1007",
+    "balance": 0.0,
+    "transactions": 26
+  },
+  {
+    "address": "0xb0608ca76d2ec6984f652829e887811516e4b846",
+    "label": "Fake_Phishing1008",
+    "balance": 0.0,
+    "transactions": 23
+  },
+  {
+    "address": "0x29c3aDF6f50E2186C21f5Ebb1aC073115831286E",
+    "label": "Fake_Phishing1009",
+    "balance": 0.0,
+    "transactions": 34
+  },
+  {
+    "address": "0xdbbC7E7098f69FF271C7D12b75b53C099d3C883d",
+    "label": "Fake_Phishing1010",
+    "balance": 0.0,
+    "transactions": 36
+  },
+  {
+    "address": "0xd5E846494DF899e0D7eA5e628501Dfe420D2643b",
+    "label": "Fake_Phishing1013",
+    "balance": 0.1,
+    "transactions": 22
+  },
+  {
+    "address": "0xf6884686a999f5ae6c1af03db92bab9c6d7dc8de",
+    "label": "Coinrail_Hack",
+    "balance": 7446.13401077,
+    "transactions": 22
+  },
+  {
+    "address": "0x944a3f5641d6faf7a6abde4ec31e40d0929955ed",
+    "label": "FAKE_DaoCasino",
+    "balance": 0.00026476,
+    "transactions": 19
+  },
+  {
+    "address": "0x905475cbca398e8fee6e35bcb2f530a3474b78ce",
+    "label": "FAKE_OmiseGo",
+    "balance": 0.0,
+    "transactions": 31
+  },
+  {
+    "address": "0xa6E71Bdc40952eb1C083E5Ae4940d70886296724",
+    "label": "Fake_Phishing100",
+    "balance": 0.14992436,
+    "transactions": 78
+  },
+  {
+    "address": "0x3a878eddb991ebcbc7c8052055b2e5ed5d0d1ba4",
+    "label": "Fake_Phishing1000",
+    "balance": 0.0,
+    "transactions": 87
+  },
+  {
+    "address": "0x9eea7fda3c78cd8c096ae229de8217a94cd1bcfe",
+    "label": "Fake_Phishing1001",
+    "balance": 0.34595764,
+    "transactions": 113
+  },
+  {
+    "address": "0x8d4426f94e42f721c7116e81d6688cd935cb3b4f",
+    "label": "Fake_Phishing1003",
+    "balance": 45.94865,
+    "transactions": 14
+  },
+  {
+    "address": "0x0f4cf489c65f5001843c525e1f374768dcad9b99",
+    "label": "Fake_Phishing1005",
+    "balance": 0.0,
+    "transactions": 40
+  },
+  {
+    "address": "0xb48c99C37b7cf4AC0A1c2dcA518782C1FEB4f066",
+    "label": "Fake_Phishing1007",
+    "balance": 0.0,
+    "transactions": 26
+  },
+  {
+    "address": "0xb0608ca76d2ec6984f652829e887811516e4b846",
+    "label": "Fake_Phishing1008",
+    "balance": 0.0,
+    "transactions": 23
+  },
+  {
+    "address": "0x29c3aDF6f50E2186C21f5Ebb1aC073115831286E",
+    "label": "Fake_Phishing1009",
+    "balance": 0.0,
+    "transactions": 34
+  },
+  {
+    "address": "0xdbbC7E7098f69FF271C7D12b75b53C099d3C883d",
+    "label": "Fake_Phishing1010",
+    "balance": 0.0,
+    "transactions": 36
+  },
+  {
+    "address": "0xd5E846494DF899e0D7eA5e628501Dfe420D2643b",
+    "label": "Fake_Phishing1013",
+    "balance": 0.1,
+    "transactions": 22
+  },
+  {
+    "address": "0xa62cB4bD9E69E9170a2d973AA3aECE5A1215D41C",
+    "label": "Fake_Phishing1015",
+    "balance": 0.0,
+    "transactions": 10
+  },
+  {
+    "address": "0xf6238cBC1b74b183E54d63A555f867bAA00D92dF",
+    "label": "Fake_Phishing1017",
+    "balance": 0.0,
+    "transactions": 20
+  },
+  {
+    "address": "0x311e8FBacC2EC05793e14319ef0006F7A7516CBa",
+    "label": "Fake_Phishing1018",
+    "balance": 0.0,
+    "transactions": 11
+  },
+  {
+    "address": "0x882C3163237009DCA0Aa3d479f73EB55639339e4",
+    "label": "Fake_Phishing1019",
+    "balance": 0.00277616,
+    "transactions": 12
+  },
+  {
+    "address": "0x34743ffa1f93e745668725e44efeb3c50a237796",
+    "label": "Fake_Phishing102",
+    "balance": 0.00096064,
+    "transactions": 17
+  },
+  {
+    "address": "0xe6eb070bcef81fd12a198ba03fe393e9ee4cb671",
+    "label": "Fake_Phishing1020",
+    "balance": 0.1921057,
+    "transactions": 14
+  },
+  {
+    "address": "0xf77149cAC62F1b3DF7d8D0Cd951F152F28C72bB1",
+    "label": "Fake_Phishing1021",
+    "balance": 0.04039337,
+    "transactions": 141
+  },
+  {
+    "address": "0x89c0e39f3b3Be95c238912788687DBAebe7e6A2B",
+    "label": "Fake_Phishing1022",
+    "balance": 0.680139,
+    "transactions": 25
+  },
+  {
+    "address": "0xCC13856aC5ec565c2Ef8770a347a224351163DcA",
+    "label": "Fake_Phishing1026",
+    "balance": 0.0,
+    "transactions": 23
+  },
+  {
+    "address": "0x346B909240978658eC69C3f6E0D7CBeF50Bc3C79",
+    "label": "Fake_Phishing1027",
+    "balance": 0.0,
+    "transactions": 36
+  },
+  {
+    "address": "0xB7f9FDB9f3f6142cF5e2b7bEE8AEbA059dfb091b",
+    "label": "Fake_Phishing1028",
+    "balance": 0.0,
+    "transactions": 35
+  },
+  {
+    "address": "0xa3e785ee490e1102fe32512973c96Dc7DC876348",
+    "label": "Fake_Phishing1029",
+    "balance": 0.0,
+    "transactions": 578
+  },
+  {
+    "address": "0xf591bBF70178bCAa80D306Ab65755ab7038962Cd",
+    "label": "Fake_Phishing1031",
+    "balance": 0.0,
+    "transactions": 12
+  },
+  {
+    "address": "0x1b8ee5cB5520ea3d12F64a8973c2A4F0cbcB1564",
+    "label": "Fake_Phishing1033",
+    "balance": 0.0,
+    "transactions": 26
+  },
+  {
+    "address": "0x57a3d07e27475aa8f5d306b7bb25aebfd27c4512",
+    "label": "Fake_Phishing1034",
+    "balance": 0.0,
+    "transactions": 12
+  },
+  {
+    "address": "0xdd0940c356ebe5bb23039bbf6c83f33c7d510dc9",
+    "label": "Fake_Phishing1037",
+    "balance": 3.2902487,
+    "transactions": 26
+  },
+  {
+    "address": "0x00EB6f5199cD0B671da371969B1A0F948e982Fea",
+    "label": "Fake_Phishing1039",
+    "balance": 2.508278,
+    "transactions": 23
+  },
+  {
+    "address": "0x70ba69fCb5720BA8D573b78f641eEcB775C0E5a9",
+    "label": "Fake_Phishing1043",
+    "balance": 0.0017824,
+    "transactions": 33
+  },
+  {
+    "address": "0x45f7582fd6445918912977b9460475b5524cf962",
+    "label": "Fake_Phishing1045",
+    "balance": 0.0,
+    "transactions": 20
+  },
+  {
+    "address": "0x2Dc5616EC2b9D24906F0e11dC8D8a736392dFeDD",
+    "label": "Fake_Phishing1047",
+    "balance": 0.0,
+    "transactions": 26
+  },
+  {
+    "address": "0x699CbEAa28A49e096DF00011d734803a0B8f5F80",
+    "label": "Fake_Phishing105",
+    "balance": 0.0,
+    "transactions": 21
+  },
+  {
+    "address": "0xa3eE246232eBd99EC9A07851116f9F67380C5E6F",
+    "label": "Fake_Phishing1050",
+    "balance": 0.0,
+    "transactions": 45
+  },
+  {
+    "address": "0x934f49fCF451A34026E3dFc3f26a1De01b83b509",
+    "label": "Fake_Phishing1051",
+    "balance": 0.0,
+    "transactions": 34
+  },
+  {
+    "address": "0xdb53ce480bac3ce96fdb79fae1156f80b6925e05",
+    "label": "Fake_Phishing1053",
+    "balance": 0.0,
+    "transactions": 144
+  },
+  {
+    "address": "0xded605e5a25d7e6808d726a52257ac5e65b99475",
+    "label": "Fake_Phishing1054",
+    "balance": 4.102e-5,
+    "transactions": 18
+  },
+  {
+    "address": "0xf261B3A60Ef40eE0B369B0705c1a2c58B02799DF",
+    "label": "Fake_Phishing1055",
+    "balance": 0.00061322,
+    "transactions": 56
+  },
+  {
+    "address": "0xcc7ecc050aab5843c79f14933e207f032bc16b78",
+    "label": "Fake_Phishing1059",
+    "balance": 0.0,
+    "transactions": 36
+  },
+  {
+    "address": "0x7098c7113c2ecaf48baad07e598c74c2689a5795",
+    "label": "Fake_Phishing106",
+    "balance": 0.2,
+    "transactions": 21
+  },
+  {
+    "address": "0xC42bFd4F93b46037888602c3e7E6E57d65E87E73",
+    "label": "Fake_Phishing1060",
+    "balance": 0.0,
+    "transactions": 16
+  },
+  {
+    "address": "0x84106febe96b45d1a6cf1dceec8285c46faf25de",
+    "label": "Fake_Phishing1061",
+    "balance": 0.0,
+    "transactions": 29
+  },
+  {
+    "address": "0x0C4762Bc7B1Af1DC9448A827f53861c118B712dE",
+    "label": "Fake_Phishing1062",
+    "balance": 0.509139,
+    "transactions": 15
+  },
+  {
+    "address": "0xc1f9c01602043fcef642cc8601bda13ca29b7a9c",
+    "label": "Fake_Phishing1063",
+    "balance": 0.0005398,
+    "transactions": 18
+  },
+  {
+    "address": "0x34bb6cf517abb83bfd8bc4e41ed899810ac49b58",
+    "label": "Fake_Phishing1064",
+    "balance": 0.0,
+    "transactions": 14
+  },
+  {
+    "address": "0x7942ec88b93ac9227957a118d8d09aa736c886a1",
+    "label": "Fake_Phishing1067",
+    "balance": 0.04802178,
+    "transactions": 73
+  },
+  {
+    "address": "0xd6572692BE52881905Dd59d4984cC7E61A2514e7",
+    "label": "Fake_Phishing1070",
+    "balance": 0.0,
+    "transactions": 21
+  },
+  {
+    "address": "0x9826D8246E0c38cd3EC3f8b6D733be6001c2c712",
+    "label": "Fake_Phishing1071",
+    "balance": 0.0,
+    "transactions": 42
+  },
+  {
+    "address": "0x52beed3924b0824411d03ea2fe51e429717dcf10",
+    "label": "Fake_Phishing1073",
+    "balance": 0.0,
+    "transactions": 22
+  },
+  {
+    "address": "0x54b623c82365ef20680b17301bd949bcd5599eb9",
+    "label": "Fake_Phishing1075",
+    "balance": 0.0,
+    "transactions": 22
+  },
+  {
+    "address": "0x3f2cf669c657316985b01b1b797cb259c97d6551",
+    "label": "Fake_Phishing1076",
+    "balance": 0.000205,
+    "transactions": 12
+  },
+  {
+    "address": "0x1691b2f9986598e12c57aba5be50ebd5346247e0",
+    "label": "Fake_Phishing1077",
+    "balance": 0.0,
+    "transactions": 10
+  },
+  {
+    "address": "0xdccea2e783d873acb4ccfb7dead1004d90ad481d",
+    "label": "Fake_Phishing108",
+    "balance": 0.02941001,
+    "transactions": 38
+  },
+  {
+    "address": "0x368be389ce940bf17c3296344086e368bc4c60f3",
+    "label": "Fake_Phishing1082",
+    "balance": 0.00887549,
+    "transactions": 16
+  },
+  {
+    "address": "0x8c9d135ac2778e1a7d326932aad302e7c22c94d7",
+    "label": "Fake_Phishing1083",
+    "balance": 0.0,
+    "transactions": 31
+  },
+  {
+    "address": "0x0a888f0f0b772e17a2adfd62d3f15cec72c8d42f",
+    "label": "Fake_Phishing1084",
+    "balance": 0.0,
+    "transactions": 19
+  },
+  {
+    "address": "0x85234c92d4dddf239df9c76497a6516fdf546577",
+    "label": "Fake_Phishing1088",
+    "balance": 0.0,
+    "transactions": 10
+  },
+  {
+    "address": "0x5580fb6e95230bf16ae7e2c6467d11566ed5b3ea",
+    "label": "Fake_Phishing1090",
+    "balance": 0.00541092,
+    "transactions": 27
+  },
+  {
+    "address": "0x92cd726ce03ceaa4bf7198ce9c52d05d63cee575",
+    "label": "Fake_Phishing1094",
+    "balance": 0.0,
+    "transactions": 11
+  },
+  {
+    "address": "0x3eadb407f81d62d27f63a8881805b1735f70e692",
+    "label": "Fake_Phishing1098",
+    "balance": 0.0,
+    "transactions": 17
+  },
+  {
+    "address": "0x354d4f3eb48be676a030f98e2a6c5bc06b96e249",
+    "label": "Fake_Phishing110",
+    "balance": 0.0,
+    "transactions": 38
+  },
+  {
+    "address": "0xb9ee29ff43d319c126ed2dbdd74d49a2659ede56",
+    "label": "Fake_Phishing1102",
+    "balance": 0.0,
+    "transactions": 20
+  },
+  {
+    "address": "0x4910e010ebf5b3366d1e80a134c1fa538ff7994c",
+    "label": "Fake_Phishing1103",
+    "balance": 0.0,
+    "transactions": 18
+  },
+  {
+    "address": "0x2276f412d2ae5dc2cdc293b0df70a8273f6f6771",
+    "label": "Fake_Phishing1104",
+    "balance": 0.0,
+    "transactions": 14
+  },
+  {
+    "address": "0xae9dcec1fb0814ca02ca1e6690d05f33488b4c8b",
+    "label": "Fake_Phishing1107",
+    "balance": 0.0,
+    "transactions": 21
+  },
+  {
+    "address": "0x4a8d9b64ee9c7e058fe9c8cbf96375b02da006e2",
+    "label": "Fake_Phishing1109",
+    "balance": 0.00043457,
+    "transactions": 25
+  },
+  {
+    "address": "0xe7a06aab8286cef4206942a4891ee95a40e86466",
+    "label": "Fake_Phishing1110",
+    "balance": 0.0,
+    "transactions": 50
+  },
+  {
+    "address": "0x8a0e85901849b40a7f80399a00f7115193c0bdb2",
+    "label": "Fake_Phishing1112",
+    "balance": 0.0,
+    "transactions": 45
+  },
+  {
+    "address": "0x2d301d74a8d303da6408cc2dfda319bbeb48c125",
+    "label": "Fake_Phishing1114",
+    "balance": 0.0,
+    "transactions": 14
+  },
+  {
+    "address": "0x8408263f4f0691db34bd7666b5af61e19cb91b91",
+    "label": "Fake_Phishing1115",
+    "balance": 0.00882937,
+    "transactions": 15
+  },
+  {
+    "address": "0xd582cec308d9320b2ec3dc2868b56549fc8ace5a",
+    "label": "Fake_Phishing1117",
+    "balance": 0.0,
+    "transactions": 10
+  },
+  {
+    "address": "0x7b66563dd534c3e66fee08c995da9d5e77c883f9",
+    "label": "Fake_Phishing1118",
+    "balance": 0.005895,
+    "transactions": 10
+  },
+  {
+    "address": "0xb9b9b6aca1a0cf4ea4eb0ced466d66a62f8eb072",
+    "label": "Fake_Phishing1119",
+    "balance": 0.0,
+    "transactions": 27
+  },
+  {
+    "address": "0x4810b1571775dd861c61d87fbea1008e030a8ddf",
+    "label": "Fake_Phishing1120",
+    "balance": 0.0,
+    "transactions": 12
+  },
+  {
+    "address": "0x97b20481241fe3cb9cc9ba50609d377b2506cdaa",
+    "label": "Fake_Phishing1125",
+    "balance": 0.13386766,
+    "transactions": 15
+  },
+  {
+    "address": "0xb53e95a4b7c5e15a790df3a66709b2e9f1cf9e3f",
+    "label": "Fake_Phishing1128",
+    "balance": 0.62103036,
+    "transactions": 12
+  },
+  {
+    "address": "0x95c5db5bd9a0260fc457af4f6fc6de7819d9b1a6",
+    "label": "Fake_Phishing1129",
+    "balance": 0.0,
+    "transactions": 12
+  },
+  {
+    "address": "0x95ffcdf36129e5e256190609cd97841d03e52356",
+    "label": "Fake_Phishing1130",
+    "balance": 0.0,
+    "transactions": 22
+  },
+  {
+    "address": "0x4fbc4c6c416a84e04b2239202396f378d7af51ee",
+    "label": "Fake_Phishing1131",
+    "balance": 0.0,
+    "transactions": 15
+  },
+  {
+    "address": "0xd52fcaf53cd3efd7e1d484fd9cd2dd21355063e5",
+    "label": "Fake_Phishing1132",
+    "balance": 0.0,
+    "transactions": 11
+  },
+  {
+    "address": "0xa0c7d4f3fc7f8a46fb58990228d0b82a0354f371",
+    "label": "Fake_Phishing1133",
+    "balance": 10.307173,
+    "transactions": 11
+  },
+  {
+    "address": "0x548ac87629ceb858aa09b419f5b9898ec5735fba",
+    "label": "Fake_Phishing1135",
+    "balance": 0.005895,
+    "transactions": 18
+  },
+  {
+    "address": "0xf12d3f5d38c2408da3122cee1432e89c16522b3b",
+    "label": "Fake_Phishing1136",
+    "balance": 87.0,
+    "transactions": 10
+  },
+  {
+    "address": "0x23397c5d9c6363d67b3a294b677f80f93949bf56",
+    "label": "Fake_Phishing1138",
+    "balance": 0.0,
+    "transactions": 22
+  },
+  {
+    "address": "0x5093c4029acab3aff80140023099f5ec6ca7d52f",
+    "label": "Fake_Phishing1140",
+    "balance": 0.0,
+    "transactions": 22
+  },
+  {
+    "address": "0xac14590ad8184a48302f59a8baaf924b865de4c5",
+    "label": "Fake_Phishing1141",
+    "balance": 0.0,
+    "transactions": 34
+  },
+  {
+    "address": "0xcaa5854034d7eda409e2479c6c0351c167e21a08",
+    "label": "Fake_Phishing1142",
+    "balance": 0.009139,
+    "transactions": 26
+  },
+  {
+    "address": "0x52bef206e8e0403cd60d37e48f4f3860d9545556",
+    "label": "Fake_Phishing1145",
+    "balance": 0.00060416,
+    "transactions": 15
+  },
+  {
+    "address": "0xf7355cb5278fc4be2f53ce373f7cd9b543d042a1",
+    "label": "Fake_Phishing1148",
+    "balance": 0.0,
+    "transactions": 35
+  },
+  {
+    "address": "0x38b9dafe93f0b3ab7d35ac42165b73c0f3c5fd8c",
+    "label": "Fake_Phishing1149",
+    "balance": 0.00013296,
+    "transactions": 19
+  },
+  {
+    "address": "0xb5eb9d18c0413535baf1fa8bd8bf8f6ea7fea47a",
+    "label": "Fake_Phishing1151",
+    "balance": 0.0,
+    "transactions": 17
+  },
+  {
+    "address": "0xe3224fa0197de258ba065c35380d7dfd2396ec89",
+    "label": "Fake_Phishing1152",
+    "balance": 0.0008572,
+    "transactions": 82
+  },
+  {
+    "address": "0x91459992bcbf089851abffa033559c2eef120469",
+    "label": "Fake_Phishing1153",
+    "balance": 0.0,
+    "transactions": 40
+  },
+  {
+    "address": "0xd787e430cf92d42fa28b7643e41ea1d871a19fff",
+    "label": "Fake_Phishing1155",
+    "balance": 0.0,
+    "transactions": 12
+  },
+  {
+    "address": "0xc4b1a260735fdc817409183db8594baf9f0b0f2f",
+    "label": "Fake_Phishing1157",
+    "balance": 0.009139,
+    "transactions": 15
+  },
+  {
+    "address": "0x9a4afeaecd8efe2a7186365b55e72503d555713b",
+    "label": "Fake_Phishing1159",
+    "balance": 0.0,
+    "transactions": 13
+  },
+  {
+    "address": "0xedc0c49946b93aa296a11298480ae7913bb65222",
+    "label": "Fake_Phishing1161",
+    "balance": 0.87193026,
+    "transactions": 26
+  },
+  {
+    "address": "0x754a7657092fd2862338ff06ce02cfc389d49e21",
+    "label": "Fake_Phishing1163",
+    "balance": 0.0,
+    "transactions": 16
+  },
+  {
+    "address": "0x0c8b740e3377f2be7a108aeba6a2f660588c728d",
+    "label": "Fake_Phishing1165",
+    "balance": 0.0,
+    "transactions": 85
+  },
+  {
+    "address": "0x64c940690a3660e68d93d8c6412d900bdd3e11e5",
+    "label": "Fake_Phishing1167",
+    "balance": 0.0,
+    "transactions": 22
+  },
+  {
+    "address": "0xceebb2d0cdc85e9774a232bab74c45fc883c15e4",
+    "label": "Fake_Phishing1168",
+    "balance": 0.0,
+    "transactions": 23
+  },
+  {
+    "address": "0x588c0e4af4bb0cd6e63e898bf8ad555452297326",
+    "label": "Fake_Phishing1169",
+    "balance": 0.0,
+    "transactions": 174
+  },
+  {
+    "address": "0x41467711f2d1f6021119ffb113ae0e78251b45fa",
+    "label": "Fake_Phishing1170",
+    "balance": 0.0061231,
+    "transactions": 78
+  },
+  {
+    "address": "0x043375ebc36fff7a4fcef1359f3c89afddf56e08",
+    "label": "Fake_Phishing1172",
+    "balance": 0.00357909,
+    "transactions": 28
+  }
+]

@@ -3,3 +3,7 @@ keys.py
 *keys*
 *.txt
 *.pyc
+*.html
+*.ipynb
+backup
+*.exe
