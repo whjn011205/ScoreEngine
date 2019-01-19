@@ -14,12 +14,12 @@ from selenium.webdriver.common.keys import Keys
 import time
 
 HEADERS = {'User-agent': 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.120 Safari/537.36'}
-DB_FILE = 'etherscamdb.json'
-DB = json.load(open(DB_FILE,'r'))
-print(len(DB.keys()))
+# DB_FILE = 'etherscamdb.json'
+# DB = json.load(open(DB_FILE,'r'))
+# print(len(DB.keys()))
 
 
-keys = list(DB.keys())
+# keys = list(DB.keys())
 
 def getSinglePageHackList(page_no=1):  
     # print(page_no)
@@ -108,7 +108,7 @@ def getAddressComments(addr, folder = 'hackComments/'):
  
 
 def getHackComments():
-    hack_list = json.load(open('hackList.json','r'))
+    hack_list = json.load(open('data/hackList.json','r'))
     i=0
     hack_list_with_comments = []
     for item in hack_list:
@@ -120,11 +120,11 @@ def getHackComments():
         item['comments'] = comments['comments']
         item['commentsCount'] = comments['commentsCount']
         hack_list_with_comments.append(item)
-    json.dump(hack_list_with_comments,open('hack_list_withcomments.json','w'), indent=4)
+    # json.dump(hack_list_with_comments,open('data/hack_list_withcomments.json','w'), indent=4)
     
 
 def getGoodComments():
-    good_list = json.load(open('goodList.json','r'))
+    good_list = json.load(open('data/goodList.json','r'))
     i=0
     good_list_with_comments = []
     for item in good_list:
@@ -138,10 +138,10 @@ def getGoodComments():
         item['address'] = addr
         del item['exchange']
         good_list_with_comments.append(item)
-    json.dump(good_list_with_comments,open('good_list_withcomments.json','w'), indent=4)
-    # print(resul
-
-getGoodComments()
+    # json.dump(good_list_with_comments,open('data/good_list_withcomments.json','w'), indent=4)
+if __name__ == '__main__':
+    # getGoodComments()
+    pass
 # getComments()
 
 
