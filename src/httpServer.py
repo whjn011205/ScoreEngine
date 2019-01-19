@@ -1,23 +1,24 @@
 from flask import Flask,request
 import constants as CST
-import pandas as pd
-from keys import aws_keys
-from dynamoUtil import DynamoUtil 
-import etherscan
+# import pandas as pd
+# from keys import aws_keys
+# from dynamoUtil import DynamoUtil 
+# import etherscan
+import random
 
 app = Flask(__name__)
 
-db = DynamoUtil(aws_keys['credentials']['accessKeyId'], aws_keys['credentials']['secretAccessKey'], aws_keys['region'])
+# db = DynamoUtil(aws_keys['credentials']['accessKeyId'], aws_keys['credentials']['secretAccessKey'], aws_keys['region'])
 
 
 def evaluate(addr):
-    relatedAddrs = etherscan.getRelatedAddresses(addr)
-    dbAddrs = [addr['address'] for addr in db.scanIdentifiedAddress()]
+    # relatedAddrs = etherscan.getRelatedAddresses(addr)
+    # dbAddrs = [addr['address'] for addr in db.scanIdentifiedAddress()]
 
-    print('ehterscan related addresses: ',relatedAddrs)
-    print('identified scam address in DB: ', dbAddrs)
-    dummyScore = 0
-    return dummyScore
+    # print('ehterscan related addresses: ',relatedAddrs)
+    # print('identified scam address in DB: ', dbAddrs)
+    # dummyScore = 0
+    return random.randint(1,100)
 
 
  
